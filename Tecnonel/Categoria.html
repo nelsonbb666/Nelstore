@@ -107,20 +107,19 @@
 </footer>
 
 <script>
-// Mapeo de categorías (ID -> Nombre y datos)
+// Mapeo de categorías (ID -> Nombre y datos) - NUEVA ESTRUCTURA
 const categoriesMap = {
-    'tecnologia': { name: '📱 Tecnología y Celulares', description: 'Cargadores, Power Banks, Soportes, Cables USB, Audífonos y Parlantes Bluetooth.' },
-    'hogar-inteligente': { name: '🏠 Hogar Inteligente', description: 'Cámaras WiFi, Timbres Inteligentes, Sensores, Luces LED y Enchufes Inteligentes.' },
-    'iluminacion-led': { name: '💡 Iluminación LED', description: 'Tiras RGB, Lámparas Decorativas, Luces con Sensor y Escritorio.' },
-    'cocina-inteligente': { name: '🍳 Cocina Inteligente', description: 'Selladoras, Picadoras, Básculas, Dispensadores y Organizadores.' },
-    'vehiculos': { name: '🚗 Vehículos', description: 'Soportes, Aspiradoras, Cargadores para Carro y Luces LED.' },
-    'gaming': { name: '🎮 Gaming y Entretenimiento', description: 'Controles, Teclados, Mouse, Headsets y Accesorios Gamer.' },
-    'oficina': { name: '💼 Oficina y Escritorio', description: 'Organizadores, Lámparas de Escritorio, Accesorios de Computadora.' },
-    'herramientas': { name: '🔧 Herramientas y Hogar', description: 'Herramientas, Organización, Seguridad y Mantenimiento.' },
-    'regalos': { name: '🎁 Regalos y Novedades', description: 'Productos únicos, innovadores y perfectos para regalar.' },
-    'cuidado-personal': { name: '💆 Cuidado Personal', description: 'Máquinas de afeitar, cortadoras y accesorios de cuidado personal.' },
-    'virales': { name: '🔥 Productos Virales', description: 'Los productos más populares y trending del momento.' },
-    'audio': { name: '🔊 Audio y Música', description: 'Audífonos Bluetooth, Parlantes, Micrófonos y Accesorios.' }
+    'tecnologia': { name: '📱 Tecnología y Electrónica', description: 'Celulares, Audio, Gaming, Oficina y todos sus accesorios tecnológicos.' },
+    'hogar': { name: '🏠 Hogar', description: 'Hogar inteligente, Iluminación LED, Cocina y Aseo para tu casa.' },
+    'moda': { name: '👗 Moda', description: 'Ropa, Zapatos, Accesorios, Joyería y Bisutería para todos.' },
+    'belleza': { name: '💄 Belleza y Cuidado Personal', description: 'Cuidado personal, Cosméticos, Maquillaje y Perfumería.' },
+    'mascotas': { name: '🐶 Mascotas', description: 'Accesorios, Juguetes, Camas, Comederos y Productos de paseo.' },
+    'deportes': { name: '🏋️ Deportes y Fitness', description: 'Accesorios deportivos, Fitness, Entrenamiento, Yoga y Running.' },
+    'jugueteria': { name: '🧸 Juguetería', description: 'Juguetes infantiles, Juegos educativos, Muñecos y Juegos de mesa.' },
+    'vehiculos': { name: '🚗 Vehículos', description: 'Accesorios para carro y moto, Organización, Limpieza y Gadgets.' },
+    'salud': { name: '❤️ Salud y Bienestar', description: 'Cuidado de la piel, Masaje, Relajación y Accesorios de salud.' },
+    'adultos': { name: '🔞 Adultos', description: 'Productos exclusivos para adultos con discreción y calidad.' },
+    'tendencias': { name: '🔥 Tendencias', description: 'Productos virales, Novedades y Gadgets curiosos en tendencia.' }
 };
 
 // Función para obtener el parámetro de la URL

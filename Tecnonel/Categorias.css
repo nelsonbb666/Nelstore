@@ -29,7 +29,7 @@
 
 .u-section-1 .u-repeater-1 {
   grid-template-columns: repeat(3, calc(33.3333% - 11.3333px));
-  min-height: 2011px;
+  min-height: 2200px;
   --gap: 17px;
   grid-auto-columns: calc(33.3333% - 11.3333px);
 }
@@ -494,6 +494,52 @@
   padding: 23px 49px 23px 48px;
 }
 
+.u-section-1 .u-list-item-11 {
+  background-image: none;
+  --radius: 25px;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+}
+
+.u-section-1 .u-container-layout-11 {
+  padding: 0;
+}
+
+.u-section-1 .u-image-11 {
+  height: 249px;
+  margin-top: 1px;
+  margin-bottom: 0;
+  --top-left-radius: 20px;
+  --top-right-radius: 20px;
+}
+
+.u-section-1 .u-text-22 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 21px 21px 0;
+}
+
+.u-section-1 .u-text-23 {
+  margin: 19px 24px 0 18px;
+}
+
+.u-section-1 .u-btn-11 {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 0.875rem;
+  align-self: center;
+  text-align: center;
+  border-style: solid;
+  --radius: 10px;
+  background-image: none;
+  margin: 28px auto 0;
+  padding: 23px 49px 23px 48px;
+}
+
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
     min-height: 1332px;
@@ -503,7 +549,7 @@
     grid-template-columns: repeat(3, calc(33.333333333333336% - 11.3333px));
     grid-gap: 17px;
     grid-auto-columns: calc(33.333333333333336% - 11.333333333333334px);
-    min-height: 1658px;
+    min-height: 1850px;
   }
 
   .u-section-1 .u-image-1 {
@@ -671,7 +717,7 @@
   .u-section-1 .u-repeater-1 {
     grid-template-columns: repeat(2, calc(50% - 8.499975px));
     grid-auto-columns: calc(50% - 8.5px);
-    min-height: 2381px;
+    min-height: 3100px;
   }
 
   .u-section-1 .u-image-1 {
@@ -864,6 +910,20 @@
     margin-left: 29px;
     margin-right: 29px;
   }
+
+  .u-section-1 .u-image-11 {
+    height: 356px;
+  }
+
+  .u-section-1 .u-text-22 {
+    margin-left: 29px;
+    margin-right: 29px;
+  }
+
+  .u-section-1 .u-text-23 {
+    margin-left: 29px;
+    margin-right: 29px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -1007,6 +1067,20 @@
   }
 
   .u-section-1 .u-text-21 {
+    margin-left: 21px;
+    margin-right: 21px;
+  }
+
+  .u-section-1 .u-image-11 {
+    height: 224px;
+  }
+
+  .u-section-1 .u-text-22 {
+    margin-left: 21px;
+    margin-right: 21px;
+  }
+
+  .u-section-1 .u-text-23 {
     margin-left: 21px;
     margin-right: 21px;
   }
